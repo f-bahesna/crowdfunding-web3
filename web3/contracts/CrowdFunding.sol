@@ -37,6 +37,7 @@ contract CrowdFunding {
         campaign.title = _title;
         campaign.description = _description;
         campaign.target = _target;
+        campaign.deadline = _deadline;
         campaign.amountCollected = 0;
         campaign.image = _image;
 
